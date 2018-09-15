@@ -99,5 +99,29 @@ td {
 }
 a:visited {
     color: aliceblue;
- }
+}
+.ava{
+    border-radius: 300px; /* Радиус скругления */
+    border: 3px solid green; /* Параметры рамки */
+    box-shadow: 0 0 7px #666; /* Параметры тени */
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+#userInfo{
+    background-color: dodgerblue;
+    width: 550px;
+    height: 125px;
+    position: relative;
+    margin:0 auto;
+    display: block;
+    text-align: center;
+    color: aliceblue;
+    border-radius: 20%;
+}
+#userBio{
+    top: 175px;
+    color: aliceblue;
+    font-size: 35px;
+}
   
