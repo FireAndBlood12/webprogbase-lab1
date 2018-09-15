@@ -1,0 +1,51 @@
+#mainPage {
+    width: 960px;
+    position: relative;
+    margin:0 auto;
+    right: 10px;
+    border: 2px dotted black;
+    top: 10px;
+}
+#menuBlock {
+    height: 150px;
+    border: 2px dotted black;
+    margin: 0 auto;
+    text-align: center;
+}
+#logo{
+    height: 150px;
+    width: 200px;
+    position: relative;
+    left: 10px;
+    top: 10px;
+}
+ul.menu {
+    display: block;
+    margin: 0 auto;
+    padding: 10;
+    top: 15px;
+}
+ul.menu li {
+    display: inline; 
+    margin-right: 5px; 
+    border: 1px solid #000;
+    padding: 3px; 
+    color: aliceblue;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 25px;
+}
+menuBlock {
+    top: 15px;
+}
+body{
+   background-image: url(../images/serial-social-s2.jpg);
+   background-repeat: no-repeat;
+   background-size: 100%;
+}
+#siteName {
+    color: aliceblue;
+    font-size: 100px;
+    font-family: fantasy;
+    margin: 50px;
+}
