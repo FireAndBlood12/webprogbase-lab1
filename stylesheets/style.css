@@ -3,40 +3,61 @@
     position: relative;
     margin:0 auto;
     right: 10px;
-    border: 2px dotted black;
     top: 10px;
-}
-#menuBlock {
-    height: 150px;
-    border: 2px dotted black;
-    margin: 0 auto;
-    text-align: center;
 }
 #logo{
     height: 150px;
     width: 200px;
     position: relative;
-    left: 10px;
-    top: 10px;
+    left: 15px;
+    top: -3px;
 }
 ul.menu {
     display: block;
     margin: 0 auto;
     padding: 10;
-    top: 15px;
+    top: 10px;
 }
 ul.menu li {
     display: inline; 
     margin-right: 5px; 
-    border: 1px solid #000;
+
     padding: 3px; 
     color: aliceblue;
     font-size: 50px;
     font-family: 'Times New Roman', Times, serif;
     margin: 25px;
 }
-menuBlock {
-    top: 15px;
+.logoSite {
+    display: flex;
+}
+
+.logoSite > a {
+    margin: 5px;
+}
+
+.logoSite > span {
+    width: 100%;
+}
+
+#menuBlock {
+
+ height: 120px;
+
+ margin: 0 auto;
+ text-align: center;
+ vertical-align: middle;
+}
+
+ul.menu {
+
+ display: flex;
+ margin: 0 auto;
+ padding: 10;
+ vertical-align: middle;
+ justify-content: center;
+ margin-top: 20px;
+
 }
 body{
    background-image: url(../images/serial-social-s2.jpg);
@@ -49,3 +70,34 @@ body{
     font-family: fantasy;
     margin: 50px;
 }
+#usersTable {
+    width: 800px; /* Ширина таблицы */
+    border: 1px solid green; /* Рамка вокруг таблицы */
+    margin: 0 auto;
+    border-collapse: collapse;
+    bottom: 10px;
+}
+caption{
+    font-size: 30px;
+    color: bisque;
+}
+table { 
+    width: 100%; /* Ширина таблицы */
+    border: 4px double black; /* Рамка вокруг таблицы */
+    border-collapse: collapse; /* Отображать только одинарные линии */
+    font-size: 25px;
+}
+th { 
+    text-align: left; /* Выравнивание по левому краю */
+    background: #ccc; /* Цвет фона ячеек */
+    padding: 5px; /* Поля вокруг содержимого ячеек */
+    border: 1px solid black; /* Граница вокруг ячеек */
+}
+td { 
+    padding: 5px; /* Поля вокруг содержимого ячеек */
+    border: 1px solid black; /* Граница вокруг ячеек */
+}
+a:visited {
+    color: aliceblue;
+ }
+  
