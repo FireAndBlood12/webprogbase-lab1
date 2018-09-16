@@ -5,6 +5,13 @@
     right: 10px;
     top: 10px;
 }
+#descrPage{
+    width: 960px;
+    position: relative;
+    margin:0 auto;
+    right: 10px;
+    top: 10px;
+}
 #logo{
     height: 150px;
     width: 200px;
@@ -60,9 +67,8 @@ ul.menu {
 
 }
 body{
-   background-image: url(../images/serial-social-s2.jpg);
-   background-repeat: no-repeat;
-   background-size: 100%;
+   background: url(https://fireandblood12.github.io/webprogbase-lab1/images/serial-social-s2.jpg) no-repeat center center fixed;
+   background-size: cover;
 }
 #siteName {
     color: aliceblue;
@@ -151,4 +157,16 @@ a:link{
 }
 #serials{
     border-radius: 10%;
+}
+#gotDescr{
+    text-align: center;
+    position: relative;
+}
+#ouatDescr{
+    text-align: center;
+    position: relative;
+}
+#bbtDescr{
+    text-align: center;
+    position: relative;
 }
