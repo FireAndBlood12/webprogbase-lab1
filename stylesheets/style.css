@@ -111,17 +111,44 @@ a:visited {
 #userInfo{
     background-color: dodgerblue;
     width: 550px;
-    height: 125px;
+    height: 135px;
     position: relative;
     margin:0 auto;
     display: block;
     text-align: center;
     color: aliceblue;
     border-radius: 20%;
+    bottom: 20px;
 }
 #userBio{
-    top: 175px;
+    bottom: 20px;
     color: aliceblue;
     font-size: 35px;
 }
-  
+#serialsBlock{
+    text-align: center;
+    color: aliceblue;
+    font-size: 40px;
+    background-color: dodgerblue;
+    width: 550px;
+    height: 535px;
+    margin:0 auto;
+    display: block;
+    border-radius: 20%;
+}
+ul.serialsList li {
+    display: inline; 
+    margin-right: 5px; 
+
+    padding: 3px; 
+    color: aliceblue;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 25px;
+}
+a:link{
+    color: aliceblue;
+}
+#serials{
+    border-radius: 10%;
+}
