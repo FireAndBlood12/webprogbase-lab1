@@ -49,7 +49,7 @@ ul.menu li {
 
 #menuBlock {
 
- height: 100px;
+ height: 120px;
 
  margin: 0 auto;
  text-align: center;
@@ -91,6 +91,7 @@ table {
     width: 100%;
     border: 4px double black; 
     border-collapse: collapse;
+    top: 10px;
     font-size: 25px;
 }
 th { 
@@ -101,6 +102,7 @@ th {
 }
 td { 
     padding: 5px;
+    background: burlywood;
     border: 1px solid black;
 }
 a:visited {
@@ -161,14 +163,20 @@ a:link{
 #gotDescr{
     text-align: center;
     position: relative;
+    color: rgb(245, 248, 78);
+    font-size: 20px
 }
 #ouatDescr{
     text-align: center;
     position: relative;
+    color: rgb(245, 248, 78);
+    font-size: 20px
 }
 #bbtDescr{
     text-align: center;
     position: relative;
+    color: rgb(245, 248, 78);
+    font-size: 20px;
 }
 #siteDescr{
     text-align: center;
