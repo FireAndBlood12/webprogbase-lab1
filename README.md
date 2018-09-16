@@ -1,1 +1,1 @@
-# webprogbase-lab1
+[ABS_serial](https://fireandblood12.github.io/webprogbase-lab1/)
