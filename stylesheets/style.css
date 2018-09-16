@@ -77,8 +77,8 @@ body{
     margin: 50px;
 }
 #usersTable {
-    width: 800px; /* Ширина таблицы */
-    border: 1px solid green; /* Рамка вокруг таблицы */
+    width: 800px;
+    border: 1px solid green; 
     margin: 0 auto;
     border-collapse: collapse;
     bottom: 10px;
@@ -88,28 +88,28 @@ caption{
     color: bisque;
 }
 table { 
-    width: 100%; /* Ширина таблицы */
-    border: 4px double black; /* Рамка вокруг таблицы */
-    border-collapse: collapse; /* Отображать только одинарные линии */
+    width: 100%;
+    border: 4px double black; 
+    border-collapse: collapse;
     font-size: 25px;
 }
 th { 
-    text-align: left; /* Выравнивание по левому краю */
-    background: #ccc; /* Цвет фона ячеек */
-    padding: 5px; /* Поля вокруг содержимого ячеек */
-    border: 1px solid black; /* Граница вокруг ячеек */
+    text-align: left; 
+    background: #ccc; 
+    padding: 5px;
+    border: 1px solid black; 
 }
 td { 
-    padding: 5px; /* Поля вокруг содержимого ячеек */
-    border: 1px solid black; /* Граница вокруг ячеек */
+    padding: 5px;
+    border: 1px solid black;
 }
 a:visited {
     color: aliceblue;
 }
 .ava{
-    border-radius: 300px; /* Радиус скругления */
-    border: 3px solid green; /* Параметры рамки */
-    box-shadow: 0 0 7px #666; /* Параметры тени */
+    border-radius: 300px; 
+    border: 3px solid green;
+    box-shadow: 0 0 7px #666;
     display: block;
     margin: 0 auto;
     text-align: center;
