@@ -170,3 +170,17 @@ a:link{
     text-align: center;
     position: relative;
 }
+#siteDescr{
+    text-align: center;
+    color: aliceblue;
+    font-size: 40px;
+    background-color: dodgerblue;
+    width: 750px;
+    margin:0 auto;
+    display: block;
+    border-radius: 10%;
+}
+#author{
+    text-align: center;
+    color: aliceblue;
+}
